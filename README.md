@@ -1,81 +1,63 @@
-<img align ="right" src="https://visitor-badge.laobi.icu/badge?page_id=fspofficialviewers" alt="fspofficial-viewers">
-<h1 align="center">Hi there, I'm Syanic XD (Old True Syanic) aka Prathvi👋</h1>
+Here's a new version of your GitHub profile README:
 
-Yo how's u doin? ✌
+---
 
-[![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=alaotach" alt="alaotach-profile-viewers" />
+<h1 align="center">Hey there, I'm Aryan Mishra 👋</h1>
 
-I'm ██-year-old boy on an intention to enhance as a successful full-stack web developer. I love building full-stack web applications and mobile apps. I have proved my superiority in frontend technologies. I love to share my resources and expertise with the dev community.
-
-- 🔭 I’m currently working on Websites and Discord Bots
-- 🌱 I’m currently learning Java & Javascript
-- 👯 I would like to collaborate and make friends
-- 🤔 I’m looking for help with Netifiy
-- 💬 You can ask me about Python
-- 📫 How to reach me: [Discord](https://discord.com/users/771740239931768892/)
-- 😄 Pronouns: He/His
-- ⚡ Fun fact: Big fan of Minecraft
+I’m a **17-year-old coding enthusiast** with over **5 years of experience** in the tech world. My passions range widely across tech, and I'm always exploring new fields and ideas!
 
 [![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
+https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://github.com/alaotach?tab=repositories)
 
-## Find me around the web 🌍
-- [📹 1st YouTube Channel](https://www.youtube.com/channel/UCgmRd79LLh1c8LhzVtIzSDA)
-- [📷 Instagram Profile](https://www.instagram.com/truesyanic.yt/)
-- [📨 DM me on Discord](https://discord.com/users/771740239931768892)
+I’m an **AI, ML, and Blockchain enthusiast**, who does **web development for fun** and also works on my own startups like **Aloopay** and **Krypkey**. I have a wide array of interests, from space theories and quantum physics to astronomy and history. For me, technology is a playground of endless possibilities, and I love using it to build meaningful and impactful projects.
 
-[![](https://discord.c99.nl/widget/theme-1/771740239931768892.png)](https://discord.com/users/771740239931768892/)
-
-<!-- ## My Blogsites ⚡
-- [🍨 Prathvi Crations](https://prathvi8.blogspot.com)
-- [🍦 Prathvi Blogs](https://prathvi8.blogspot.com)
--->
+- 🔭 **Currently Working On:** Websites, blockchain projects, Discord Bots, and AI/ML applications
+- 🌱 **Currently Learning:** Advanced AI frameworks, Solana blockchain, and next-gen JavaScript libraries
+- 👯 **Open to Collaborations:** Especially in AI, ML, blockchain, or next-gen web projects
+- 💬 **Ask Me About:** AI, web development, Python, or even topics like quantum physics and space theories
+- ⚡ **Fun Fact:** I do content writing for fun and love exploring cross-disciplinary fields!
 
 [![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
+https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://github.com/alaotach?tab=repositories)
 
-## My Skills 🚀
-[![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML5)
-[![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://en.wikipedia.org/wiki/JavaScript)
-[![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://en.wikipedia.org/wiki/Node.js)
-[![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS#CSS_3)
-[![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://en.wikipedia.org/wiki/Markdown)
-[![](https://img.shields.io/badge/Pyhton-430098?style=for-the-badge&logo=python&logoColor=white)](https://en.wikipedia.org/wiki/Python_(programming_language))
-[![](https://img.shields.io/badge/Unity-D6316C?style=for-the-badge&logo=unity&logoColor=white)](https://en.wikipedia.org/wiki/Unity_(game_engine))
-[![](https://img.shields.io/badge/Java-3D1675?style=for-the-badge&logo=java&logoColor=white)](https://en.wikipedia.org/wiki/Java_(programming_language))
-[![](https://img.shields.io/badge/Discord.py-F0A260?style=for-the-badge&logo=discord&logoColor=white)](https://en.wikipedia.org/wiki/Discord_(software))
+## Tech Stack 🚀
+[![Python](https://img.shields.io/badge/Python-430098?style=for-the-badge&logo=python&logoColor=white)](https://en.wikipedia.org/wiki/Python_(programming_language))
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS#CSS_3)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://en.wikipedia.org/wiki/JavaScript)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://en.wikipedia.org/wiki/Next.js)
+[![Java](https://img.shields.io/badge/Java-3D1675?style=for-the-badge&logo=java&logoColor=white)](https://en.wikipedia.org/wiki/Java_(programming_language))
+[![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://en.wikipedia.org/wiki/Rust_(programming_language))
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://en.wikipedia.org/wiki/Node.js)
+[![Solana](https://img.shields.io/badge/Solana-282C34?style=for-the-badge&logo=solana&logoColor=4E44CE)](https://en.wikipedia.org/wiki/Solana_(blockchain_platform))
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://en.wikipedia.org/wiki/TensorFlow)
+[![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://en.wikipedia.org/wiki/Keras)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://en.wikipedia.org/wiki/OpenCV)
+[![Discord.py](https://img.shields.io/badge/Discord.py-F0A260?style=for-the-badge&logo=discord&logoColor=white)](https://en.wikipedia.org/wiki/Discord_(software))
+[![Discord.js](https://img.shields.io/badge/Discord.js-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://en.wikipedia.org/wiki/Discord_(software))
 
 [![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
+https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://github.com/alaotach?tab=repositories)
 
-## 👨‍💻 Weekly Development Breakdown
-```
-🔒 Locked 🔒
-```
-
-[![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
-
-## My Github Status 🦸
+## GitHub Status 🦸
 <p align="center">
   <a>
     <img height="120" width="140" src="https://github.com/muhiqsimui/muhiqsimui/raw/main/assets/left.png">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=fspofficial&theme=dark&hide_border=true" alt="muhiqsimui"/>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=alaotach&theme=dark&hide_border=true" alt="streak-stats"/>
     <img height="120" width="140" src="https://github.com/muhiqsimui/muhiqsimui/raw/main/assets/right.png">
   </a>
 </p>
-<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fspofficial&row=2&column=8&margin-w=15&margin-h=15&theme=dracula&no-bg=true&no-frame=true" alt="fspofficial" /></a></p>
+<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alaotach&row=2&column=8&margin-w=15&margin-h=15&theme=dracula&no-bg=true&no-frame=true" alt="alaotach" /></a></p>
 
-[![Github Stats](https://github-readme-stats.vercel.app/api?username=fspofficial&theme=cobalt&show_icons=true)](https://github.com/fspofficial)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fspofficial&hide=TeX&layout=compact&theme=cobalt)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alaotach&theme=cobalt&show_icons=true)](https://github.com/alaotach)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alaotach&hide=TeX&layout=compact&theme=cobalt)
 
 [![-----------------------------------------------------](
-https://raw.githubusercontent.com/fspofficial/fspofficial/main/magma.png)](https://github.com/fspofficial?tab=repositories)
+https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://github.com/alaotach?tab=repositories)
 
-## Contribution Graph 📈
-<br>
-<div>
-    <img src="https://activity-graph.herokuapp.com/graph?username=fspofficial&theme=xcode&area=true" />
-</div>
-<br/>
+---
+
+This README emphasizes your impressive coding skills, interests, and passion for exploration in and outside of tech. Adjust links or wording as you like, and this will make an awesome first impression!
