@@ -1,7 +1,3 @@
-Here's a new version of your GitHub profile README:
-
----
-
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=alaotach" alt="alaotach-profile-viewers" />
 <h1 align="center">Hey there, I'm Aryan Mishra 👋</h1>
 
@@ -57,7 +53,3 @@ https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://git
 
 [![-----------------------------------------------------](
 https://raw.githubusercontent.com/alaotach/alaotach/main/magma.png)](https://github.com/alaotach?tab=repositories)
-
----
-
-This README emphasizes your impressive coding skills, interests, and passion for exploration in and outside of tech. Adjust links or wording as you like, and this will make an awesome first impression!
