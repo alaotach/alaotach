@@ -1,37 +1,108 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/20955511/199138068-0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png" alt="AlAoTach Banner" /> </p> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6BE8F2&width=435&lines=Full-stack+Web+%26+App+Developer;Blockchain+%26+AI+Enthusiast;Founder+Krypkey+%26+Aloopay;Open+Source+Contributor;Always+Learning+✨" alt="Typing SVG" /> </p>
-📊 GitHub Stats & Activity
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=alaotach&show_icons=true&theme=radical" width="45%" /> <img src="https://github-readme-streak-stats.herokuapp.com?user=alaotach&theme=radical" width="45%" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alaotach&layout=compact&theme=radical" width="300px" /> </p>
-⏱️ WakaTime Coding Stats
-<p align="center"> <img src="https://github-readme-stats.hackclub.dev/api/wakatime?username=2373&api_domain=hackatime.hackclub.com&theme=darcula&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8" /> </p>
-🧰 Tech Stack
-<p align="center"> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Solana-000000?style=for-the-badge&logo=solana&logoColor=00FFAA" /> <img src="https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> </p>
-🚀 Featured Projects
-KrypKey – Decentralized identity & password management platform
+<p align="center">
+  <!-- Shields & profile stats -->
+  <img alt="telegram" src="https://img.shields.io/badge/telegram-@onlpx-26A5E4?style=for-the-badge" />
+  <img alt="profile views" src="https://komarev.com/ghpvc/?username=alaotach&style=for-the-badge" />
+</p>
 
-Aloopay – Web3-first payment processing solution
+---
 
-(Add a small screenshot or GIF for each for visual context—see best practices on engaging README templates 
-youtube.com
-+11
-voxel51.com
-+11
-dev.to
-+11
-.)
+## About Me
 
-🧠 Open‑Source Impact
-Fixed Minecraft custom-head rendering on GeyserMC (July 2021)
+```rust
+use std::collections::HashMap;
 
-Patched DeepAI authentication bug in gpt4free (July 2023)
+struct Aryan;
 
-👨‍💻 About Me
-Name/Nickname: Aryan (AlAoTach), 17‑year‑old coder based in Gurugram, India
+struct Attributes;
 
-Title: Co‑Founder & CTO at KrypKey
+impl Attributes {
+    fn contact() -> (&'static str, &'static str, &'static str, &'static str) {
+        let telegram = "t.me/mrmango42";
+        let instagram  = "instagram.com/alaotach";
+        let linkedin  = "linkedin.com/in/alaotach";
+        let email    = "alaotach@gmail.com";
+        (telegram, instagram, linkedin, email)
+    }
 
-Interests: AI/ML, Blockchain (Solana/Web3), FinTech architecture, distributed systems
+    fn life() -> (Vec<&'static str>, u8) {
+        let langs = vec!["English", "Hindi"];
+        let age: u8 = 19
+        (langs, age)
+    }
 
-Motto: “I code therefore I am.” 🐛
+    fn coding() -> (
+        HashMap<&'static str, Vec<&'static str>>,
+        Vec<&'static str>,
+        Vec<&'static str>,
+        HashMap<&'static str, HashMap<&'static str, HashMap<&'static str, &'static str>>>,
+    ) {
+        let mut langs: HashMap<&str, Vec<&str>> = HashMap::new();
+        langs.insert("expert", vec!["python", "typescript"]);
+        langs.insert("intermediate", vec!["java", "c++", "rust", "go"]);
+        langs.insert("learning", vec!["solana", "blockchain dev"]);
 
-🌐 Connect With Me
-<p align="center"> <a href="https://www.youtube.com/c/AlAoTchOP"><img src="https://i.imgur.com/qiXu7b2.png" width="32"/></a> <a href="https://www.linkedin.com/in/alaotach"><img src="https://i.imgur.com/yRpa1dQ.png" width="32"/></a> <a href="https://twitter.com/alaotach"><img src="https://i.imgur.com/AixJgnm.png" width="32"/></a> <a href="https://dev.to/alaotach"><img src="https://i.imgur.com/mVm29vK.png" width="32"/></a> <a href="https://ko-fi.com/alaotach"><img src="https://i.imgur.com/PpLeD3K.png" width="32"/></a> </p>
+        let specialities = vec!["AI/ML", "blockchain", "fullstack", "app & web dev"];
+        let ide = vec!["vscode", "neovim"];
+
+        let mut pc: HashMap<&str, HashMap<&str, HashMap<&str, &str>>> = HashMap::new();
+
+        let mut windows = HashMap::new();
+        let mut specs = HashMap::new();
+        specs.insert("processor", "12th Gen Intel(R) Core(TM) i5-12450H (12) @ 4.40 GHz");
+        specs.insert("ram", "16gb");
+        specs.insert("gpu", "NVIDIA GeForce RTX 3050 Mobile");
+        windows.insert("custom", specs);
+
+        pc.insert("Linux", arch);
+
+        (langs, specialities, ide, pc)
+    }
+}
+
+fn main() {
+    let contact = Attributes::contact();
+    let (languages, age) = Attributes::life();
+    let (langs, specialities, ide, pc) = Attributes::coding();
+
+    println!("Contact: {:?}", contact);
+    println!("Languages: {:?}, Age: {}", languages, age);
+    println!("Coding langs: {:?}\nSpecialities: {:?}\nIDE: {:?}\nPC: {:?}", langs, specialities, ide, pc);
+}
+```
+
+> *Building AI, machine learning, and blockchain projects.*
+> *Founder of EryzaLabs.*
+
+---
+
+## Skills
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,rust,js,react,java,cpp,solidity,html,css" alt="skill icons" />
+  </a>
+</p>
+
+---
+
+## Live Widgets
+
+<p align="center">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alaotach&theme=tokyonight&show_icons=true" />
+</p>
+
+---
+
+## Quick Links
+
+* LinkedIn: [https://linkedin.com/in/alaotach](https://linkedin.com/in/alaotach)
+* GitHub: [https://github.com/alaotach](https://github.com/alaotach)
+* Email: [alaotach@gmail.com](mailto:alaotach@gmail.com)
+
+---
+
+## Contributing & License
+
+This README is a personal profile. If you want to borrow or adapt styling/code, go ahead — give credit if you copy large parts. No special license attached here; treat this as creative personal content.
+
+---
