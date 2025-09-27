@@ -1,11 +1,3 @@
-<p align="center">
-  <!-- Shields & profile stats -->
-  <img alt="telegram" src="https://img.shields.io/badge/telegram-@onlpx-26A5E4?style=for-the-badge" />
-  <img alt="profile views" src="https://komarev.com/ghpvc/?username=alaotach&style=for-the-badge" />
-</p>
-
----
-
 ## About Me
 
 ```rust
