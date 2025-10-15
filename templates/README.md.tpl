@@ -85,7 +85,11 @@ fn main() {
 
 
 
-{{ wakatimeDoubleCategoryBar "ðŸ’¾ Languages:" wakatimeData.Languages "ðŸ’¼ Projects:" wakatimeData.Projects 5 }}
+## 💾 Languages
+{{ wakatimeCategoryBar wakatimeData.Languages 5 }}
+
+## 💼 Projects
+{{ wakatimeCategoryBar wakatimeData.Projects 5 }}
 
 ---
 
