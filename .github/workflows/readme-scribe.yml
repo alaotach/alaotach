@@ -14,9 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: charmbracelet/readme-scribe@master
+      - uses: taciturnaxolotl/readme-scribe@master
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         with:
           template: "templates/README.md.tpl"
           writeTo: "README.md"
