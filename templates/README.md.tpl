@@ -1,55 +1,104 @@
-### Hi there 👋
+## About Me
 
-#### 👷 Check out what I'm currently working on
-{{range recentContributions 10}}
-- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
-{{- end}}
+```rust
+use std::collections::HashMap;
 
-#### 🌱 My latest projects
-{{range recentCreatedRepos "charmbracelet" 10}}
-- [{{.Name}}]({{.URL}}) - {{.Description}}
-{{- end}}
+struct Aryan;
 
-#### 🍴 My recent forks
-{{range recentForkedRepos "charmbracelet" 10}}
-- [{{.Name}}]({{.URL}}) - {{.Description}}
-{{- end}}
+struct Attributes;
 
-#### 🔭 Latest releases I've contributed to
-{{range recentReleases 10}}
-- [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}) - {{.Description}}
-{{- end}}
+impl Attributes {
+    fn contact() -> (&'static str, &'static str, &'static str, &'static str) {
+        let telegram = "t.me/mrmango42";
+        let instagram  = "instagram.com/alaotach";
+        let linkedin  = "linkedin.com/in/alaotach";
+        let email    = "alaotach@gmail.com";
+        (telegram, instagram, linkedin, email)
+    }
 
-#### 🔨 My recent Pull Requests
-{{range recentPullRequests 10}}
-- [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
-{{- end}}
+    fn life() -> (Vec<&'static str>, u8) {
+        let langs = vec!["English", "Hindi"];
+        let age: u8 = 19
+        (langs, age)
+    }
+
+    fn coding() -> (
+        HashMap<&'static str, Vec<&'static str>>,
+        Vec<&'static str>,
+        Vec<&'static str>,
+        HashMap<&'static str, HashMap<&'static str, HashMap<&'static str, &'static str>>>,
+    ) {
+        let mut langs: HashMap<&str, Vec<&str>> = HashMap::new();
+        langs.insert("expert", vec!["python", "typescript"]);
+        langs.insert("intermediate", vec!["java", "c++", "rust", "go"]);
+        langs.insert("learning", vec!["solana", "blockchain dev"]);
+
+        let specialities = vec!["AI/ML", "blockchain", "fullstack", "app & web dev"];
+        let ide = vec!["vscode", "neovim"];
+
+        let mut pc: HashMap<&str, HashMap<&str, HashMap<&str, &str>>> = HashMap::new();
+
+        let mut windows = HashMap::new();
+        let mut specs = HashMap::new();
+        specs.insert("processor", "12th Gen Intel(R) Core(TM) i5-12450H (12) @ 4.40 GHz");
+        specs.insert("ram", "16gb");
+        specs.insert("gpu", "NVIDIA GeForce RTX 3050 Mobile");
+        windows.insert("custom", specs);
+
+        pc.insert("Linux", arch);
+
+        (langs, specialities, ide, pc)
+    }
+}
+
+fn main() {
+    let contact = Attributes::contact();
+    let (languages, age) = Attributes::life();
+    let (langs, specialities, ide, pc) = Attributes::coding();
+
+    println!("Contact: {:?}", contact);
+    println!("Languages: {:?}, Age: {}", languages, age);
+    println!("Coding langs: {:?}\nSpecialities: {:?}\nIDE: {:?}\nPC: {:?}", langs, specialities, ide, pc);
+}
+```
+
+> *Building AI, machine learning, and blockchain projects.*
+> *Founder of EryzaLabs.*
+
+---
+
+## Skills
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,rust,js,react,java,cpp,solidity,html,css" alt="skill icons" />
+  </a>
+</p>
+
+---
+
+## Live Widgets
+
+<p align="center">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alaotach&theme=tokyonight&show_icons=true" />
+</p>
 
 
-#### ⭐ Recent Stars
-{{range recentStars 10}}
-- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .StarredAt}})
-{{- end}}
 
-#### ❤️ These awesome people sponsor me (thank you!)
-{{range sponsors 5}}
-- [{{.User.Login}}]({{.User.URL}}) ({{humanize .CreatedAt}})
-{{- end}}
+{{ wakatimeDoubleCategoryBar "ðŸ’¾ Languages:" wakatimeData.Languages "ðŸ’¼ Projects:" wakatimeData.Projects 5 }}
 
-#### 👯 Check out some of my recent followers
-{{range followers 5}}
-- [{{.Login}}]({{.URL}})
-{{- end}}
+---
 
-#### 💬 Feedback
+## Quick Links
 
-Say Hello, I don't bite!
+* LinkedIn: [https://linkedin.com/in/alaotach](https://linkedin.com/in/alaotach)
+* GitHub: [https://github.com/alaotach](https://github.com/alaotach)
+* Email: [alaotach@gmail.com](mailto:alaotach@gmail.com)
 
-#### 📫 How to reach me
+---
 
-- Twitter: https://twitter.com/...
-- Fediverse: https://mastodon.social/@..
+## Contributing & License
 
-Want your own self-generating profile page? Check out [readme-scribe](https://github.com/charmbracelet/readme-scribe)!
+This README is a personal profile. If you want to borrow or adapt styling/code, go ahead â€” give credit if you copy large parts. No special license attached here; treat this as creative personal content.
 
-<!-- comments will be preserved -->
+---
