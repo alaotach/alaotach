@@ -85,15 +85,8 @@ fn main() {
 
 
 
-## 💾 Languages
-{{ range wakatimeData.Languages }}
-- {{ .Name }}: {{ .Percent }}%
-{{- end }}
-
-## 💼 Projects
-{{ range wakatimeData.Projects }}
-- {{ .Name }}: {{ .Percent }}%
-{{- end }}
+## 💾 Languages {{ wakatimeCategoryBar wakatimeData.Languages 5 }} 
+## 💼 Projects {{ wakatimeCategoryBar wakatimeData.Projects 5 }}
 
 ---
 
