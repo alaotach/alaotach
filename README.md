@@ -86,6 +86,15 @@ fn main() {
 <!--START_SECTION:WAKA-->
 <!--END_SECTION:WAKA-->
 
+💾 Languages:
+C#           12h 51m 0s   █████████████░░░░░░░░░░░░  48.96%
+unity        12h 48m 0s   █████████████░░░░░░░░░░░░  48.74%
+XML          1h 45m 0s    ██░░░░░░░░░░░░░░░░░░░░░░░  6.70%
+TypeScript   1h 30m 0s    ██░░░░░░░░░░░░░░░░░░░░░░░  5.74%
+JavaScript   36m 0s       █░░░░░░░░░░░░░░░░░░░░░░░░  2.31%
+
+💼 Projects:
+
 ---
 
 ## Quick Links
