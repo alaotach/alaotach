@@ -1,34 +1,28 @@
-permissions:
-  contents: write
-name: Update README
-
+name: Waka Readme
 on:
-  push:
+  workflow_dispatch:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: 0 */2 * * *
 
 jobs:
-  markscribe:
+  update-readme:
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@master
-
       - uses: athul/waka-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_URL: https://waka.hackclub.com/api/compat/wakatime/v1/
-        with:
-          template: "templates/README.md.tpl"
-          writeTo: "README.md"
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
-        with:
-          commit_message: Update generated README
-          branch: main
-          commit_user_name: readme-scribe 🤖
-          commit_user_email: actions@github.com
-          commit_author: readme-scribe 🤖 <actions@github.com>
+          SHOW_TITLE: true
+          SECTION_NAME: WAKA
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          TIME_RANGE: all_time
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: true
+          LANG_COUNT: 10
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
+          TARGET_BRANCH: master
+          TARGET_PATH: README.md
+          COMMITTER_NAME: GitHubActionBot
+          COMMITTER_EMAIL: action-bot@github.com
+          AUTHOR_NAME: Chunnyluny
+          AUTHOR_EMAIL: 102756485+Chunnyluny@users.noreply.github.com
