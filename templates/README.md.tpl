@@ -86,6 +86,8 @@ fn main() {
 <!--START_SECTION:WAKA-->
 <!--END_SECTION:WAKA-->
 
+{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}
+
 ---
 
 ## Quick Links
