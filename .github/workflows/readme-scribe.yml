@@ -12,7 +12,7 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_URL: https://hackatime.hackclub.com/api/hackatime/v1
+          API_BASE_URL: https://hackatime.hackclub.com/api/hackatime/v1
           SHOW_TITLE: true
           SECTION_NAME: WAKA
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
