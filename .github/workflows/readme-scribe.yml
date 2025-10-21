@@ -1,29 +1,40 @@
-name: Waka Readme
+name: Update readme.md
+
 on:
-  workflow_dispatch:
+  push:
   schedule:
-    - cron: 0 */2 * * *
+    - cron: "0 */1 * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
-    name: WakaReadme DevMetrics
+  markscribe:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@master
+
+      - uses: 'actions-go/go-install@main'
+        id: install
+        env:
+          GOPROXY: "direct"
+          GOSUMDB: "off"
         with:
+          module: "github.com/cherrytree56567/markscribe@master"
+
+      - name: generate readme
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          API_BASE_URL: https://hackatime.hackclub.com/api/hackatime/v1
-          SHOW_TITLE: true
-          SECTION_NAME: WAKA
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
-          TIME_RANGE: all_time
-          SHOW_TIME: true
-          SHOW_MASKED_TIME: true
-          LANG_COUNT: 10
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
-          TARGET_BRANCH: master
-          TARGET_PATH: README.md
-          COMMITTER_NAME: GitHubActionBot
-          COMMITTER_EMAIL: action-bot@github.com
-          AUTHOR_NAME: Chunnyluny
-          AUTHOR_EMAIL: 102756485+Chunnyluny@users.noreply.github.com
+          WAKATIME_URL: "https://hackatime.hackclub.com/api/v1"
+        run: |
+          echo -n "${{ secrets.TESTING }}" | sha256sum
+          ${{ steps.install.outputs.install-path }} -write README.md README.md.tpl
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update generated README
+          branch: main
+          commit_user_name: readme-scribe 🤖 
+          commit_user_email: actions@github.com
+          commit_author: readme-scribe 🤖 <actions@github.com>
