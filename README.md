@@ -83,7 +83,8 @@ fn main() {
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alaotach&theme=tokyonight&show_icons=true" />
 </p>
 
-
+<!--START_SECTION:WAKA-->
+<!--END_SECTION:WAKA-->
 
 ---
 
