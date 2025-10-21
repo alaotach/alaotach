@@ -85,9 +85,6 @@ fn main() {
 
 
 
-## 💾 Languages {{ wakatimeCategoryBar wakatimeData.Languages 5 }} 
-## 💼 Projects {{ wakatimeCategoryBar wakatimeData.Projects 5 }}
-
 ---
 
 ## Quick Links
