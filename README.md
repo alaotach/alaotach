@@ -38,12 +38,12 @@ impl Attributes {
 
         let mut pc: HashMap<&str, HashMap<&str, HashMap<&str, &str>>> = HashMap::new();
 
-        let mut windows = HashMap::new();
+        let mut arch = HashMap::new();
         let mut specs = HashMap::new();
         specs.insert("processor", "12th Gen Intel(R) Core(TM) i5-12450H (12) @ 4.40 GHz");
         specs.insert("ram", "16gb");
         specs.insert("gpu", "NVIDIA GeForce RTX 3050 Mobile");
-        windows.insert("custom", specs);
+        arch.insert("custom", specs);
 
         pc.insert("Linux", arch);
 
