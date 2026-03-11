@@ -80,7 +80,10 @@ fn main() {
 ## Live Widgets
 
 <p align="center">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alaotach&theme=tokyonight&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" />
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=alaotach&theme=tokyonight&show_icons=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=percentile" />
+</p>
+<p align="center">
+      <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alaotach&langs_count=8&layout=compact&stats_format=bytes"/>
 </p>
 
 <!--START_SECTION:WAKA-->
