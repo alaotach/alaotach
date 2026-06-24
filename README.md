@@ -77,6 +77,12 @@ fn main() {
 
 ---
 
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg">
+    <img src="./dist/github-snake.svg" alt="GitHub contribution snake" align="center">
+</picture>
+
 ## Live Widgets
 
 <p align="center">
